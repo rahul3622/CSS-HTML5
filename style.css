@@ -114,6 +114,8 @@ transform: scale(1.5,1);
 	background: #5f93e8;
 	border-radius: 30px;
 	border-radius: 0 0 30px 30px;
+	transition: all;
+	transition-duration: 0.5s ease-in-out;
 }
 
 .leftleg:hover{
