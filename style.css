@@ -1,0 +1,119 @@
+h1{
+	text-align: center;
+}
+.container{
+	position: relative;
+	margin: auto;
+	display: block;
+	width: 400px;
+	height: 700px;
+	
+}
+
+.head{
+	position: absolute;
+	width: 50%;
+	height: 25%;
+	background: #5f93e8;
+	border-top-right-radius: 200px; 
+	border-top-left-radius: 200px;
+	left: 25%;
+	top
+	z-index: 0;
+	transition: all;
+	transition-duration: 1s;
+}
+
+.head:hover{
+
+-webkit-transform: scale(1.5,1);
+-ms-transform: scale(1.5,1);
+transform: scale(1.5,1);
+}
+
+.lefteye{
+	position: absolute;
+	width: 8%;
+	height: 10%;
+	background: white;
+	z-index: 1;
+	top: 70%;
+	left: 20%;
+	border-radius: 50%;
+}
+
+.righteye{
+	position: absolute;
+	width: 8%;
+	height: 10%;
+	background: white;
+	z-index: 1;
+	top: 70%;
+	right: 20%;
+	border-radius: 50%;
+}
+
+.upperbody{
+	display: flex;
+	width: 400px;
+	height: 250px;
+}
+
+.stamoch{
+	position: absolute;
+	width: 50%;
+	height: 30%;
+	background: #5f93e8;
+	border-bottom-right-radius: 25%; 
+	border-bottom-left-radius: 25%;
+	left: 25%;
+	top: 27%;
+	z-index: 0;
+}
+
+.leftarm{
+	position: absolute;
+	width: 7%;
+	height: 15%;
+	background: #5f93e8;
+	top: 27%;
+	left: 15%;
+	border-radius: 30px;
+}
+
+.rightarm{
+	position: absolute;
+	width: 7%;
+	height: 15%;
+	background: #5f93e8;
+	top: 27%;
+	right:15%;
+	border-radius: 30px;
+}
+
+.rightleg{
+	position: absolute;
+	height: 10%;
+	width: 7%;
+	top: 55%;
+	left:37%;
+	background: #5f93e8;
+	border-radius: 0 0 30px 30px;
+	transition: all;
+	transition-duration: 0.5s ease-in-out;
+}
+.rightleg:hover{
+	transform: rotate(30deg);
+}
+.leftleg{
+	position: absolute;
+	height: 10%;
+	width: 7%;
+	top: 55%;
+	right:37%;
+	background: #5f93e8;
+	border-radius: 30px;
+	border-radius: 0 0 30px 30px;
+}
+
+
